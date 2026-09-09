@@ -1,0 +1,35 @@
+## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+spring:
+  application:
+    name: shop-api
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: ${POSTGRES_USER:postgres}
+    password: ${POSTGRES_PASSWORD:root}
+    url: ${POSTGRES_URL:jdbc:postgresql://localhost:5432/postgres}
+  sql:
+    init:
+      # spring.datasource.platform / initialization-mode se renombraron en Boot 2.5+
+      platform: postgres
+      mode: always
+      continue-on-error: true
+  jpa:
+    show-sql: false
+    hibernate:
+      # crea el esquema y carga src/main/resources/import.sql en cada arranque
+      ddl-auto: create
+    database: postgresql
+    defer-datasource-initialization: true
+
+  queries:
+    users-query: select email, password, active from users where email=?
+    roles-query: select email, role from users where email=?
+
+server:
+  servlet:
+    context-path: /api
+
+# HS512 exige una clave >= 512 bits (64 caracteres).
+# Sobreescribir con la variable JWT_SECRET en produccion.
+jwtSecret: ${JWT_SECRET:cambiar-esta-clave-en-produccion-shop-api-secreto-hs512-2025-minimo-64-caracteres}
+jwtExpiration: ${JWT_EXPIRATION:86400}

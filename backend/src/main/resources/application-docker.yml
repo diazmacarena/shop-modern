@@ -1,0 +1,4 @@
+## Perfil usado por docker-compose: solo cambia el host de la base de datos.
+spring:
+  datasource:
+    url: ${POSTGRES_URL:jdbc:postgresql://db:5432/postgres}
