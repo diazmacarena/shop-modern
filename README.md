@@ -104,6 +104,8 @@ Cargadas por `import.sql`. Contrasena: **`123`** en todas.
 
 ## Comandos de construccion
 
+> Guia detallada (incluye como construir **sin base de datos**): [BUILD.md](./BUILD.md)
+
 | Tarea | Backend | Frontend |
 |---|---|---|
 | Compilar | `./mvnw clean compile` | `npm run build` |
