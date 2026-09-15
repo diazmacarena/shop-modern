@@ -265,3 +265,38 @@ cd ../frontend && npm ci && npm run build && npm run test:ci && npm run lint
 
 **Requisitos:** JDK 21+, Node.js 20.19+/22.12+/24+, Google Chrome (solo para las pruebas
 del frontend). **No se necesita base de datos para construir.**
+
+---
+
+## 9. Publicación en GitHub
+
+El repositorio local ya tiene el historial completo (commits, una rama de documentación
+fusionada y una etiqueta `practica-03`). Para publicarlo:
+
+1. Crear un repositorio **vacío** en <https://github.com/new> (sin README, sin .gitignore,
+   sin licencia) — por ejemplo `online-shopping-store-is2`.
+
+2. Conectarlo y subir todo, incluidas ramas y etiquetas:
+
+```bash
+git remote add origin https://github.com/<usuario>/<repositorio>.git
+git push -u origin main
+git push origin docs/practica-03
+git push origin --tags
+```
+
+3. Añadir a los compañeros de equipo en *Settings → Collaborators*, y al docente si lo pide.
+
+Historial que quedará visible:
+
+```
+*   Merge rama docs/practica-03: documentacion de la Practica 03
+|\
+| * Anadir ENTREGA-PRACTICA-03.md e indice de documentacion
+| * Anadir TUTORIAL.md: tutorial de construccion automatica
+| * Anadir evidencia de construccion (docs/evidencia)
+| * Anadir DOCKER.md: guia de ejecucion con Docker Compose
+|/
+* Anadir BUILD.md: guia de construccion sin base de datos
+* Actualizacion tecnologica: Java 21 / Spring Boot 4.1 / Angular 21
+```
