@@ -12,3 +12,5 @@ frontend/out-tsc/
 *.iml
 .vscode/
 .DS_Store
+
+# La evidencia de construccion SI se versiona (docs/evidencia/)

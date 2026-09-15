@@ -1,0 +1,18 @@
+
+> shop@0.0.0 build
+> ng build
+
+❯ Building...
+✔ Building...
+Initial chunk files   | Names         |  Raw size | Estimated transfer size
+main-ELFXIESL.js      | main          | 377.03 kB |                94.22 kB
+styles-RTVVFTOU.css   | styles        | 160.86 kB |                17.63 kB
+scripts-UONR3CDT.js   | scripts       | 149.97 kB |                41.82 kB
+polyfills-5CFQRCPP.js | polyfills     |  34.59 kB |                11.33 kB
+
+                      | Initial total | 722.45 kB |               165.00 kB
+
+Application bundle generation complete. [22.973 seconds] - 2026-09-15T07:32:38.535Z
+
+Output location: C:\dev\shop-modern\frontend\dist\shop
+

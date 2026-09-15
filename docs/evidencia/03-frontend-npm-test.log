@@ -1,0 +1,29 @@
+
+> shop@0.0.0 test:ci
+> ng test --watch=false --browsers=ChromeHeadless
+
+❯ Building...
+✔ Building...
+Initial chunk files            | Names                       |  Raw size
+chunk-6DEY3LQZ.js              | -                           |   2.15 MB | 
+polyfills.js                   | polyfills                   |   1.02 MB | 
+test_main.js                   | test_main                   | 227.87 kB | 
+styles.css                     | styles                      | 198.97 kB | 
+jasmine-cleanup-1.js           | jasmine-cleanup-1           |  67.12 kB | 
+chunk-ZOA6E7SV.js              | -                           |   5.94 kB | 
+spec-app-app.component.spec.js | spec-app-app.component.spec |   3.43 kB | 
+jasmine-cleanup-0.js           | jasmine-cleanup-0           | 397 bytes | 
+
+                               | Initial total               |   3.67 MB
+
+Application bundle generation complete. [4.680 seconds] - 2026-09-15T07:33:04.435Z
+
+15 09 2026 02:33:05.314:INFO [karma-server]: Karma v6.4.4 server started at http://localhost:9876/
+15 09 2026 02:33:05.316:INFO [launcher]: Launching browsers ChromeHeadless with concurrency unlimited
+15 09 2026 02:33:05.400:INFO [launcher]: Starting browser ChromeHeadless
+15 09 2026 02:33:07.476:INFO [Chrome Headless 152.0.0.0 (Windows 10)]: Connected on socket HnxFcaJppYJQ5qTlAAAA with id 19376698
+Chrome Headless 152.0.0.0 (Windows 10): Executed 0 of 2 SUCCESS (0 secs / 0 secs)
+[1AChrome Headless 152.0.0.0 (Windows 10): Executed 1 of 2 SUCCESS (0 secs / 0.104 secs)
+[1AChrome Headless 152.0.0.0 (Windows 10): Executed 2 of 2 SUCCESS (0 secs / 0.11 secs)
+[1AChrome Headless 152.0.0.0 (Windows 10): Executed 2 of 2 SUCCESS (0.127 secs / 0.11 secs)
+TOTAL: 2 SUCCESS

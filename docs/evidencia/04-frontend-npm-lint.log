@@ -1,0 +1,229 @@
+
+> shop@0.0.0 lint
+> ng lint
+
+
+Linting "shop"...
+
+C:\dev\shop-modern\frontend\src\app\_guards\auth.guard.ts
+  13:9  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  14:9  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+
+C:\dev\shop-modern\frontend\src\app\_interceptors\error-interceptor.service.ts
+  12:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  13:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  16:34  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+  16:81  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+
+C:\dev\shop-modern\frontend\src\app\_interceptors\jwt-interceptor.service.ts
+  12:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  17:36  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+  17:83  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+
+C:\dev\shop-modern\frontend\src\app\app.component.ts
+  4:5  warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone  @angular-eslint/prefer-standalone
+
+C:\dev\shop-modern\frontend\src\app\pages\card\card.component.html
+   3:32  warning  Use built-in control flow instead of directive ngForOf  @angular-eslint/template/prefer-control-flow
+  14:61  warning  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+  14:67  warning  Expected `===` but received `==`                        @angular-eslint/template/eqeqeq
+
+C:\dev\shop-modern\frontend\src\app\pages\card\card.component.ts
+   8:5   warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone      @angular-eslint/prefer-standalone
+  17:9   warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+  22:15  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  23:15  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+
+C:\dev\shop-modern\frontend\src\app\pages\cart\cart.component.html
+  18:36  warning  Use built-in control flow instead of directive ngForOf  @angular-eslint/template/prefer-control-flow
+  51:7   warning  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+
+C:\dev\shop-modern\frontend\src\app\pages\cart\cart.component.ts
+    8:9   warning  'ActivatedRoute' is defined but never used. Allowed unused vars must match /^_/u                                                                                        @typescript-eslint/no-unused-vars
+   12:5   warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone      @angular-eslint/prefer-standalone
+   19:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+   20:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+   21:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+   96:13  warning  'success' is defined but never used. Allowed unused args must match /^_/u                                                                                               @typescript-eslint/no-unused-vars
+  113:17  warning  'error1' is defined but never used. Allowed unused args must match /^_/u                                                                                                @typescript-eslint/no-unused-vars
+
+C:\dev\shop-modern\frontend\src\app\pages\login\login.component.html
+  4:38  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  7:36  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+
+C:\dev\shop-modern\frontend\src\app\pages\login\login.component.ts
+   7:5   warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone      @angular-eslint/prefer-standalone
+  17:12  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+  25:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  26:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  27:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+
+C:\dev\shop-modern\frontend\src\app\pages\order-detail\order-detail.component.html
+  15:26  warning  Use built-in control flow instead of directive ngForOf  @angular-eslint/template/prefer-control-flow
+
+C:\dev\shop-modern\frontend\src\app\pages\order-detail\order-detail.component.ts
+   8:5   warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone      @angular-eslint/prefer-standalone
+  15:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  16:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+
+C:\dev\shop-modern\frontend\src\app\pages\order\order.component.html
+  19:27  warning  Use built-in control flow instead of directive ngForOf  @angular-eslint/template/prefer-control-flow
+  31:17  warning  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+  31:25  warning  Expected `===` but received `==`                        @angular-eslint/template/eqeqeq
+  31:62  warning  Expected `===` but received `==`                        @angular-eslint/template/eqeqeq
+  35:17  warning  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+  35:23  warning  Expected `===` but received `==`                        @angular-eslint/template/eqeqeq
+  36:17  warning  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+  36:23  warning  Expected `!==` but received `!=`                        @angular-eslint/template/eqeqeq
+  36:60  warning  Expected `===` but received `==`                        @angular-eslint/template/eqeqeq
+
+C:\dev\shop-modern\frontend\src\app\pages\order\order.component.ts
+  13:5   warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone      @angular-eslint/prefer-standalone
+  20:11  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+  24:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  25:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  26:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  27:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+
+C:\dev\shop-modern\frontend\src\app\pages\product-detail\detail.component.html
+   8:54  warning  Expected `===` but received `==`                     @angular-eslint/template/eqeqeq
+  35:64  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  35:70  warning  Expected `===` but received `==`                     @angular-eslint/template/eqeqeq
+
+C:\dev\shop-modern\frontend\src\app\pages\product-detail\detail.component.ts
+  10:5  warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone      @angular-eslint/prefer-standalone
+  21:7  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  22:7  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  23:7  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  24:7  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  25:7  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+
+C:\dev\shop-modern\frontend\src\app\pages\product-edit\product-edit.component.html
+  10:19  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  11:23  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  30:15  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  31:19  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  66:19  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  67:23  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  82:19  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  83:23  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+
+C:\dev\shop-modern\frontend\src\app\pages\product-edit\product-edit.component.ts
+   7:5   warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone      @angular-eslint/prefer-standalone
+  16:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  17:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  18:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  38:13  warning  'err' is defined but never used. Allowed unused args must match /^_/u                                                                                                   @typescript-eslint/no-unused-vars
+  56:13  warning  'e' is defined but never used. Allowed unused args must match /^_/u                                                                                                     @typescript-eslint/no-unused-vars
+
+C:\dev\shop-modern\frontend\src\app\pages\product-list\product.list.component.html
+   2:5   warning  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+   2:11  warning  Expected `===` but received `==`                        @angular-eslint/template/eqeqeq
+  20:33  warning  Use built-in control flow instead of directive ngForOf  @angular-eslint/template/prefer-control-flow
+  35:17  warning  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+  35:23  warning  Expected `===` but received `==`                        @angular-eslint/template/eqeqeq
+
+C:\dev\shop-modern\frontend\src\app\pages\product-list\product.list.component.ts
+  13:5   warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone      @angular-eslint/prefer-standalone
+  20:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  21:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  22:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  27:11  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+  65:13  warning  'err' is defined but never used. Allowed unused args must match /^_/u                                                                                                   @typescript-eslint/no-unused-vars
+
+C:\dev\shop-modern\frontend\src\app\pages\signup\signup.component.html
+   7:14  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+   8:17  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  11:17  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  19:16  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  20:19  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  23:19  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  31:16  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  32:19  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  35:19  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  43:16  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  44:19  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  52:16  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  53:19  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+
+C:\dev\shop-modern\frontend\src\app\pages\signup\signup.component.ts
+   8:5   warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone      @angular-eslint/prefer-standalone
+  17:16  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  18:16  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  19:16  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  26:3   warning  Lifecycle methods should not be empty                                                                                                                                   @angular-eslint/no-empty-lifecycle-method
+  31:50  warning  'u' is defined but never used. Allowed unused args must match /^_/u                                                                                                     @typescript-eslint/no-unused-vars
+  34:9   warning  'e' is defined but never used. Allowed unused args must match /^_/u                                                                                                     @typescript-eslint/no-unused-vars
+
+C:\dev\shop-modern\frontend\src\app\pages\user-edit\user-detail.component.html
+  12:14  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  13:15  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  16:15  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  24:14  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  25:15  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  28:15  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  36:14  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  37:15  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  45:14  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  46:15  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+
+C:\dev\shop-modern\frontend\src\app\pages\user-edit\user-detail.component.ts
+   5:9   warning  'Observable' is defined but never used. Allowed unused vars must match /^_/u                                                                                            @typescript-eslint/no-unused-vars
+   5:21  warning  'Subject' is defined but never used. Allowed unused vars must match /^_/u                                                                                               @typescript-eslint/no-unused-vars
+   9:5   warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone      @angular-eslint/prefer-standalone
+  19:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  20:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  32:12  warning  'e' is defined but never used. Allowed unused args must match /^_/u                                                                                                     @typescript-eslint/no-unused-vars
+
+C:\dev\shop-modern\frontend\src\app\parts\navigation\navigation.component.html
+  13:34  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  13:56  warning  Expected `===` but received `==`                     @angular-eslint/template/eqeqeq
+  35:17  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+  35:39  warning  Expected `===` but received `==`                     @angular-eslint/template/eqeqeq
+  41:28  warning  Use built-in control flow instead of directive ngIf  @angular-eslint/template/prefer-control-flow
+
+C:\dev\shop-modern\frontend\src\app\parts\navigation\navigation.component.ts
+   9:5   warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone      @angular-eslint/prefer-standalone
+  24:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  25:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+
+C:\dev\shop-modern\frontend\src\app\parts\pagination\pagination.component.html
+   3:30  warning  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+  15:38  warning  Use built-in control flow instead of directive ngForOf  @angular-eslint/template/prefer-control-flow
+  16:34  warning  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+  16:55  warning  Expected `!==` but received `!=`                        @angular-eslint/template/eqeqeq
+  35:16  warning  Use built-in control flow instead of directive ngIf     @angular-eslint/template/prefer-control-flow
+
+C:\dev\shop-modern\frontend\src\app\parts\pagination\pagination.component.ts
+   4:5   warning  Components, Directives and Pipes should not opt out of standalone. Following this guide is highly recommended: https://angular.dev/reference/migrations/standalone  @angular-eslint/prefer-standalone
+  11:25  warning  Unexpected any. Specify a different type                                                                                                                            @typescript-eslint/no-explicit-any
+  16:3   warning  Lifecycle methods should not be empty                                                                                                                               @angular-eslint/no-empty-lifecycle-method
+
+C:\dev\shop-modern\frontend\src\app\services\cart.service.ts
+   33:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+   34:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+   35:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  118:28  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+
+C:\dev\shop-modern\frontend\src\app\services\order.service.ts
+  15:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  18:46  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+
+C:\dev\shop-modern\frontend\src\app\services\product.service.ts
+  16:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  19:58  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+  27:85  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+  55:51  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+  67:28  warning  'operation' is assigned a value but never used. Allowed unused args must match /^_/u                                                                                    @typescript-eslint/no-unused-vars
+  68:24  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+
+C:\dev\shop-modern\frontend\src\app\services\user.service.ts
+  19:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  20:17  warning  Prefer using the inject() function over constructor parameter injection. Use Angular's migration schematic to automatically refactor: ng generate @angular/core:inject  @angular-eslint/prefer-inject
+  77:28  warning  'operation' is assigned a value but never used. Allowed unused args must match /^_/u                                                                                    @typescript-eslint/no-unused-vars
+  78:24  warning  Unexpected any. Specify a different type                                                                                                                                @typescript-eslint/no-explicit-any
+
+✖ 154 problems (0 errors, 154 warnings)
+
+Lint warnings found in the listed files.
+

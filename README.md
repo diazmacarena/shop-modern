@@ -104,7 +104,15 @@ Cargadas por `import.sql`. Contrasena: **`123`** en todas.
 
 ## Comandos de construccion
 
-> Guia detallada (incluye como construir **sin base de datos**): [BUILD.md](./BUILD.md)
+> **Documentacion del proyecto**
+>
+> | Documento | Contenido |
+> |---|---|
+> | [ENTREGA-PRACTICA-03.md](./ENTREGA-PRACTICA-03.md) | entrega de la Practica 03: requisitos y evidencia |
+> | [TUTORIAL.md](./TUTORIAL.md) | tutorial de construccion automatica (herramienta, instalacion, construccion) |
+> | [BUILD.md](./BUILD.md) | construir sin base de datos + solucion de problemas |
+> | [DOCKER.md](./DOCKER.md) | ejecutar con Docker Compose |
+> | [MIGRATION.md](./MIGRATION.md) | actualizacion Java 11 -> 21 y Angular 7 -> 21 |
 
 | Tarea | Backend | Frontend |
 |---|---|---|
