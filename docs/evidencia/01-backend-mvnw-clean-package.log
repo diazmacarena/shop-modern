@@ -1,0 +1,77 @@
+Warning: JAVA_HOME environment variable is not set.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/Users/mcdia/.m2/wrapper/dists/apache-maven-3.9.16-bin/4200fbc6/apache-maven-3.9.16/lib/jansi-2.4.3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< me.zhulin:shop-api >-------------------------
+[INFO] Building shop-api 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ shop-api ---
+[INFO] Deleting C:\dev\shop-modern\backend\target
+[INFO] 
+[INFO] --- dependency:3.10.0:properties (default) @ shop-api ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ shop-api ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ shop-api ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 43 source files with javac [debug parameters release 21] to target\classes
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by lombok.permit.Permit
+WARNING: Please consider reporting this to the maintainers of class lombok.permit.Permit
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ shop-api ---
+[INFO] skip non existing resourceDirectory C:\dev\shop-modern\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ shop-api ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 7 source files with javac [debug parameters release 21] to target\test-classes
+[INFO] /C:/dev/shop-modern/backend/src/test/java/me/zhulin/shopapi/service/impl/ProductInOrderServiceImplTest.java: C:\dev\shop-modern\backend\src\test\java\me\zhulin\shopapi\service\impl\ProductInOrderServiceImplTest.java uses unchecked or unsafe operations.
+[INFO] /C:/dev/shop-modern/backend/src/test/java/me/zhulin/shopapi/service/impl/ProductInOrderServiceImplTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ shop-api ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running me.zhulin.shopapi.api.CartControllerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.150 s -- in me.zhulin.shopapi.api.CartControllerTest
+[INFO] Running me.zhulin.shopapi.service.impl.CartServiceImplTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.116 s -- in me.zhulin.shopapi.service.impl.CartServiceImplTest
+[INFO] Running me.zhulin.shopapi.service.impl.CategoryServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s -- in me.zhulin.shopapi.service.impl.CategoryServiceImplTest
+[INFO] Running me.zhulin.shopapi.service.impl.OrderServiceImplTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.151 s -- in me.zhulin.shopapi.service.impl.OrderServiceImplTest
+[INFO] Running me.zhulin.shopapi.service.impl.ProductInOrderServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in me.zhulin.shopapi.service.impl.ProductInOrderServiceImplTest
+[INFO] Running me.zhulin.shopapi.service.impl.ProductServiceImplTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 s -- in me.zhulin.shopapi.service.impl.ProductServiceImplTest
+[INFO] Running me.zhulin.shopapi.service.impl.UserServiceImplTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.135 s -- in me.zhulin.shopapi.service.impl.UserServiceImplTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.5.1:jar (default-jar) @ shop-api ---
+[INFO] Building jar: C:\dev\shop-modern\backend\target\shop-api-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:4.1.1:repackage (repackage) @ shop-api ---
+[INFO] Replacing main artifact C:\dev\shop-modern\backend\target\shop-api-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\dev\shop-modern\backend\target\shop-api-0.0.1-SNAPSHOT.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25.731 s
+[INFO] Finished at: 2026-09-15T02:31:32-05:00
+[INFO] ------------------------------------------------------------------------
